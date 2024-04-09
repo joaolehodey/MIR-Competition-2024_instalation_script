@@ -4,9 +4,9 @@ set -e
 
 UBUNTU_RELEASE="`lsb_release -rs`"
 
-if [[ "${UBUNTU_RELEASE}" != "22.04"]]; then 
-	echo "Your version of ubuntu is not supported, please install UBUNTU 22.04";
-	exit 1;
+if [[ "${UBUNTU_RELEASE}" != "22.04" ]]; then 
+	echo "Your version of ubuntu is not supported, please install UBUNTU 22.04"
+	exit 1
 fi
 
 ### ROS 2 Instalation
