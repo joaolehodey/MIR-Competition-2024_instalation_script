@@ -100,9 +100,6 @@ mkdir src && cd src
 git clone https://github.com/joaolehodey/summer_challenge_IST_DSOR.git .
 git clone https://github.com/PX4/px4_msgs.git
 
-cd px4_msgs
-git checkout release/1.14
-
 cd ~/MIR_Project_2024/glassy_challenge_ws
 colcon build
 
