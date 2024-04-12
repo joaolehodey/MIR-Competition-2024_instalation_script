@@ -74,7 +74,7 @@ sudo apt install gstreamer1.0-plugins-bad gstreamer1.0-libav gstreamer1.0-gl -y
 sudo apt install libfuse2 -y
 sudo apt install libxcb-xinerama0 libxkbcommon-x11-0 libxcb-cursor0 -y
 
-curl -o ./QGroundControl.AppImage https://github.com/mavlink/qgroundcontrol/releases/download/v4.3.0/QGroundControl.AppImage
+wget https://github.com/mavlink/qgroundcontrol/releases/download/v4.3.0/QGroundControl.AppImage
 chmod +x ./QGroundControl.AppImage
 
 
