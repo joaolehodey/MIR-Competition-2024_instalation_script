@@ -54,7 +54,7 @@ cd PX4-Autopilot
 
 make clean
 make distclean
-git checkout glassy_simulation
+git checkout glassy_MIR
 make submodulesclean
 
 bash ./Tools/setup/ubuntu.sh
@@ -78,6 +78,8 @@ wget https://github.com/mavlink/qgroundcontrol/releases/download/v4.3.0/QGroundC
 chmod +x ./QGroundControl.AppImage
 
 
+### Install Eigen3 (check if this works else try the other method)
+sudo apt install libeigen3-dev
 
 ### uXRCE-DDS (PX4-ROS 2/DDS Bridge) 
 cd ~/MIR_Project_2024
@@ -108,7 +110,7 @@ colcon build
 echo 'source /opt/ros/humble/setup.bash' >> ~/.bashrc 
 echo  'source ~/MIR_Project_2024/glassy_challenge_ws/install/setup.bash' >> ~/.bashrc 
 
-
+pip install scipy --upgrade
 
 
 
