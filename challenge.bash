@@ -99,7 +99,7 @@ cd ~/MIR_Project_2024
 mkdir glassy_challenge_ws && cd glassy_challenge_ws
 mkdir src && cd src
 
-git clone https://github.com/joaolehodey/summer_challenge_IST_DSOR.git .
+git clone https://github.com/dsor-isr/MIR-Competition-2024.git .
 git clone https://github.com/PX4/px4_msgs.git
 
 source /opt/ros/humble/setup.bash
